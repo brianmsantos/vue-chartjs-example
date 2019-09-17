@@ -30,7 +30,7 @@ export default {
                   '8', '9', '10'
               ],
               datasets: [{
-                  label: 'predicted population',
+                  label: 'nps scores',
                   backgroundColor: [
                       'rgb(131, 244, 66, 0.6)',
                       'rgb(255, 102, 153, 0.6)',
@@ -38,7 +38,7 @@ export default {
                       'rgb(255, 0, 0, 0.6)',
                       'rgb(64, 64, 64, 0.6)',
                   ],
-                  data: [89, 66, 42, 28, 12]
+                  data: [4, 3, 3, 5, 3, 1, 0, 7, 10, 99, 59]
               }]
           },
           // Configure your chart options here
@@ -52,7 +52,7 @@ export default {
               // Configures title above chart
               title: {
                   display: true,
-                  text: 'Predicted Carnivore Population of Isla Sorna (2019)'
+                  text: 'NPS Report'
               },
               // Configures the X and Y axes
               scales:{

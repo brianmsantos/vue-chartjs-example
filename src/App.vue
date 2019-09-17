@@ -1,20 +1,20 @@
 <template>
   <div class="box">
-    <h2 class="title is-5">NPS Bar Chart</h2>
-    <nps-bar-chart></nps-bar-chart>
     <h2 class="title is-5">Monthly Sales Chart</h2>
     <monthly-sales-chart></monthly-sales-chart>
+    <!-- <h2 class="title is-5">NPS Bar Chart</h2>
+    <our-bar-chart></our-bar-chart> -->
   </div>
 </template>
 
 <script>
 import MonthlySalesChart from './components/MonthlySalesChart';
-import NPSBarChart from './components/NPSBarChart'
+// import OurBarChart from './components/OurBarChart'
 
 export default {
   name: 'app',
   components: {
-    NPSBarChart,
+    // OuBarChart,
     MonthlySalesChart
   }
 }

@@ -49,11 +49,11 @@ export default {
       options: this.options
     });
   },
-//   beforeDestroy () {
-//     // Don't forget to destroy the Chart.js instance.
-//     if (this.chart) {
-//       this.chart.destroy()
-//     }
-//   }
+  beforeDestroy () {
+    // Don't forget to destroy the Chart.js instance.
+    if (this.chart) {
+      this.chart.destroy()
+    }
+  }
 }
 </script>

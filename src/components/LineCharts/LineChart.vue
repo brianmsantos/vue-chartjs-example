@@ -5,6 +5,7 @@
 <script>
 import Chart from 'chart.js';
 
+
 export default {
   name: 'monthly-sales-chart',
   props: {

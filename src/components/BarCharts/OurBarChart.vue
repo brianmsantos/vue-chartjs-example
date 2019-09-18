@@ -12,6 +12,7 @@
 <script>
 // Imports the different types of charts from the package";
 import Chart from "chart.js";
+import data from '../../../default.json'
 
 export default {
 
@@ -86,6 +87,7 @@ export default {
     }
   },
   mounted() {
+      console.log(data);
       this.initializeChart();
   },
   

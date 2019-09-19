@@ -1,25 +1,15 @@
 <template>
-
   <div class="container">
-
-      <div class="card bg-light">
-
-            <h5 class="card-header">Horizontal Bar Chart</h5>
-
-            <div class="card-body p-5">
-
-                <canvas id="myChart3" height="300px" width="800px"></canvas>
-
-            </div>
-      
-        </div> 
-        
+    <div class="card bg-light">
+      <h5 class="card-header">Horizontal Bar Chart</h5>
+      <div class="card-body p-5">
+        <canvas id="myChart3" height="300px" width="800px"></canvas>
+      </div>
+    </div> 
   </div>
-
 </template>
 
 <script>
-
 // Imports the different types of charts from the package";
 import Chart from "chart.js";
 
